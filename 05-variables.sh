@@ -1,6 +1,7 @@
 #!/bin/bash
+echo "Please enter your username"
 
-USERNAME=$1
-PASSWORD=$2
+read USERNAME # the vale entered above will be automatically attached to the username variable
 
-echo "Username is: $USERNAME, Password is: $PASSWORD"
+
+echo "Username is: $USERNAME"
